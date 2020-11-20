@@ -1,0 +1,23 @@
+@function getColorKeys(){
+    @return map-keys($colors);
+}
+
+@function getColorVariants($color){
+    @return map-get($colors, $color );
+}
+
+@function getColor($color,$position){
+    @return nth(map-get($colors,$color), $position )
+}
+
+@function getMargin($valor){
+    @return unquote(map-get($margin,$valor));
+}
+
+@function getFontSize($valor){
+    @return unquote(map-get($font-size, $valor));
+}
+
+@function getBorderRadius($valor){
+    @return unquote(map-get($border-radius,$valor));
+}

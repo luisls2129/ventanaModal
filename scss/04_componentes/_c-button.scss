@@ -1,0 +1,16 @@
+.c-button{
+    margin: 50px;
+    margin-left: 500px;
+
+    height: 40px;
+    background-color: white;
+    border-radius: getBorderRadius("3");
+
+    &--modal{
+        border: none;
+        background-color: white;
+        height: 100%;
+
+        margin: getMargin("1") getMargin("1");
+    }
+}

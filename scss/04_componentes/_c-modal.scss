@@ -1,0 +1,24 @@
+.c-modal{
+    width: 600px;
+    border: 3px solid black;
+    border-radius: getBorderRadius("4");
+    background-color: white;
+
+    -webkit-box-shadow: 0 10px 24px hsla(0,0%,0%,.2);
+    -moz-box-shadow: 0 10px 24px hsla(0,0%,0%,.2);
+    box-shadow: 0 10px 24px hsla(0,0%,0%,.2);
+
+    position:fixed;
+    top: 15px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    &__linea-1{
+        display: flex;
+        flex-direction: row;
+    }
+}
